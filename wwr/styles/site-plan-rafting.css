@@ -14,10 +14,10 @@ body {
     --heading-font: 'Open Sans', sansserif;
     --paragraph-font: 'Open Sans', SansSerif;
 
-    --nav-background-color: #5CB0FF;
+    --nav-background-color: #CDE8F4;
     --nav-link-color: #011B28;
     --nav-hover-link-color: #011B28;
-    --nav-hover-background: #5CB0FF;
+    --nav-hover-background: #CDE8F4;
 
     font-family: var(--paragraph-font);
     max-width: 960px;

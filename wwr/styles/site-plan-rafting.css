@@ -6,18 +6,18 @@ body {
     padding: 20px;
 }
 :root {
-    --Prussian-blue: #003049;
-    --Fire-engine-red: #D02525;
-    --Orange-wheel: #F77F00;
-    --Xanthous: #FCBF49;
+    --primary-color: #003049;
+    --secondary-color: #D02525;
+    --accent1-color: #F77F00;
+    --accent2-color: #FCBF49;
 
     --heading-font: 'Open Sans', sansserif;
     --paragraph-font: 'Open Sans', SansSerif;
 
     --nav-background-color: #CDE8F4;
     --nav-link-color: #011B28;
-    --nav-hover-link-color: #011B28;
-    --nav-hover-background: #CDE8F4;
+    --nav-hover-link-color: #780000;
+    --nav-hover-background: #F58F96;
 
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -26,12 +26,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--Prussian-blue);
+    color: var(--primary-color);
 }
 
 header {
     padding: 20px;
-    background-color: var(--Orange-wheel);
+    background-color: var(--accent1-color);
 }
 
 p {

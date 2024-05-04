@@ -11,8 +11,8 @@ body {
     --Orange-wheel: #F77F00;
     --Xanthous: #FCBF49;
 
-    --heading-font: 'Open Sans', Sans Serif;
-    --paragraph-font: 'Open Sans', Sans Serif;
+    --heading-font: 'Open Sans', sansserif;
+    --paragraph-font: 'Open Sans', SansSerif;
 
     --nav-background-color: #5CB0FF;
     --nav-link-color: #034377;

@@ -17,7 +17,7 @@ body {
     --nav-background-color: #CDE8F4;
     --nav-link-color: #011B28;
     --nav-hover-link-color: #8338EC;
-    --nav-hover-background: #F58F96;
+    --nav-hover-background-color: #F58F96;
 
     font-family: var(--paragraph-font);
     max-width: 960px;

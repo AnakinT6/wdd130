@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --primary-color: #003049;
+    --secondary-color: #D02525;
+    --accent1-color: #F77F00;
+    --accent2-color: #FCBF49;
+    --nav-link-color: #011B28;
+    --nav-background-color: #CDE8F4;
+    --nav-hover-background-color: #F58F96;
+
+    --paragraph-font: 'Open Sans', SansSerif;
+}
+
+header {
+    background-color: var(--accent2-color);
+    padding: 20px;  
+}
+
+header > nav a {
+    font-family: var(--paragraph-font);
+    font-size: 1.2rem;
+    text-decoration: none;
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+ }
+
+ nav a:hover {
+    color: var(--nav-hover-background-color);
+ }
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+
+p {
+    padding: 15px;
+}
+
+.hero img{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article {
+    position: absolute;
+    float: right;
+    top: 50%;
+    left: 65%;
+    width: 30%;
+    color: #CDE8F4;
+}
+
+
+h1 {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    box-shadow: 0 0 30px #111;
+    background-color: var(--accent2-color);
+}
+
+
+

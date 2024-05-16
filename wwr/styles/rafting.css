@@ -106,7 +106,7 @@ p {
 section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 10px;
 }
 
 section > h2 {
@@ -114,6 +114,11 @@ section > h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    grid-column: 1 / 5;
+}
+
+section > p {
+    background-color: var(--nav-background-color);
     grid-column: 1 / 5;
 }
 

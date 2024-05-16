@@ -15,6 +15,10 @@
 header {
     background-color: var(--accent2-color);
     padding: 20px;  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    justify-items: center;
 }
 
 header > nav a {
@@ -25,8 +29,15 @@ header > nav a {
     color: var(--nav-link-color);
  }
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+}
+
  nav a:hover {
     color: var(--nav-hover-background-color);
+
  }
 
 body {
@@ -79,3 +90,36 @@ p {
     width: 200px;
     float: right;
 }
+
+.history h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.history p {
+    grid-column: 1 / 5;
+    background-color: var(--nav-background-color);
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+section > h2 {
+    background-color: #F77F00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1 / 5;
+}
+
+
+footer {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+

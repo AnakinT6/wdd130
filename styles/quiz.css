@@ -15,7 +15,7 @@ body {
 
 header {
     margin: 0;
-    width: 400px;
+    width: 1000px;
 }
 
 h1 {
@@ -37,7 +37,7 @@ fieldset {
     display: grid;
     grid-gap: .5rem;
     margin: 1rem;
-    border: 2px solid rgba(30, 134, 198, 0.5);
+    border: none;
     padding: 1.5rem;
 }
 

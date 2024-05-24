@@ -13,21 +13,21 @@
 }
 
 header {
-    background-color: var(--accent2-color);
-    padding: 20px;  
+    background-color: var(--primary-color);
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-around;
-    justify-items: center;
-    border: 5px solid rgba(0, 0, 0, 0.8);
+    grid-template-columns: 150px auto;
+    grid-gap: 2rem;
+    padding: 2rem;
+    color: white;
 }
 
-header > nav a {
+header nav a {
     display: grid;
     font-family: var(--paragraph-font);
     font-size: 1.5rem;
     text-decoration: none;
-    color: var(--nav-link-color);
+    color: white;
+    width: 170px;
  }
 
 nav {
@@ -41,20 +41,29 @@ nav a:hover {
     color: var(--nav-hover-background-color);
  }
 
+header img {
+   width: 150px;
+   border-radius: 50%;
+}
+
 body {
     font-family: var(--paragraph-font);
     width: 960px;
-    padding: 20px;
     margin: 0 auto;
+    border: 2px solid black;
+    background-color: var(--nav-background-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--paragraph-font);
     color: var(--primary-color);
+    margin: 1.5rem 0;
+    text-transform: uppercase;
 }
 
-p {
-    padding: 15px;
+
+main {
+    background-color: white;
 }
 
 .hero {
@@ -101,7 +110,7 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     font-size: 1.2rem;
-    border: 5px solid;
+    
 }
 
 .workers h2 {
@@ -114,11 +123,10 @@ p {
 }
 
 .map {
-    background-color: var(--nav-background-color);
+    background-color: white;
     display: grid;
     align-items: center;
     justify-content: center;
-    border: 2px solid;
 }
 
 .map nav a {
@@ -127,10 +135,9 @@ p {
 }
 
 form {
-    width: 650px;
+    width: 100%;
     margin: auto;
-    padding: .8rem;
-    border: 2px solid var(--accent2-color);
+   
     border-radius: 0.5rem;
     background-color: aliceblue;
     display: grid;
@@ -141,7 +148,7 @@ fieldset {
     display: grid;
     grid-gap: .5rem;
     margin: 1rem;
-    border: 1px solid var(--nav-link-color);
+   
     padding: 1rem;
 }
 
@@ -154,6 +161,22 @@ legend {
 input[type="checkbox"] {
     width: 22px;
     height: 22px;
+    margin-left: 500px;
+    margin-top: -65px;
+}
+
+input[id="username"] {
+    height: 40px;
+    width: 70%;
+    margin-left: 30px;
+}
+
+fieldset p {
+    margin-bottom: 30px;
+}
+
+label {
+    margin-bottom: 40px;
 }
 
 button {
@@ -170,22 +193,20 @@ button:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-section {
-    width: 650px;
-    margin: auto;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    border: 2px solid rgba(0, 0, 0, 0.8);
+
+
+.company_info {
+    width: 100%;
+    background-color: white;
 }
 
- h2 {
-    align-items: center;
-    justify-content: center;
-    width: 250px;
-    margin: 20px;
-    display: grid;
+.company_info h2 {
+    margin-left: 20px;
+    padding-left: 5px;
+    margin-right: 20px;
+}
+
+h2 {
     background-color: var(--accent2-color);
     border: 1px solid;
 }
@@ -199,12 +220,61 @@ section p {
     height: 30px;
 }
 
+.adventure {
+    text-align: center;
+    padding: 2rem 0;
+}
 
+.adventure div {
+    display: flex;
+    flex-flow: row;
+ }
 
+.adventure figure {
+    padding: 5px;
+    max-height: 200px;
+    margin: auto;
+ }
+ 
+.adventure figure img {
+     max-height: 100px;
+ } 
+
+.adventure figcaption {
+    padding: 3px;
+    text-align: center;
+}
+
+.history {
+    padding: 2rem;
+    background-color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    gap: 1rem;
+}
+
+.history h2 {
+    text-align: center;
+    grid-column: 1/4;
+}
+
+.history img {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.history p {
+    height: 150px;
+}
 
 footer {
     display: flex;
     align-items: end;
     justify-content: end;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: white;
 }
+
 

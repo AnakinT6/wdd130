@@ -113,7 +113,7 @@ main {
     
 }
 
-.workers h2 {
+.workers h1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -206,7 +206,7 @@ button:hover {
     margin-right: 20px;
 }
 
-h2 {
+h1 {
     background-color: var(--accent2-color);
     border: 1px solid;
 }

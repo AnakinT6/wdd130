@@ -213,6 +213,11 @@ h1 {
     border: 1px solid;
 }
 
+h2 {
+    background-color: var(--accent2-color);
+    border: 1px solid; 
+}
+
 section p {
     align-items: center;
     justify-content: center;

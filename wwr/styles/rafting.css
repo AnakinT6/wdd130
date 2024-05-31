@@ -290,3 +290,69 @@ footer nav a {
 }
 
 
+
+.book {
+    position: relative;
+}
+
+.book h1 {
+    position: absolute;
+    top: -1.6rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--accent2-color);
+    border: 3px solid rgba(0, 0, 0, 1);
+}
+
+.book article {
+    font-size: 2rem;
+    position: absolute;
+    max-width: 80%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 1rem;
+    top: 15.5rem;
+    background-color: rgba(125, 176, 230, 0.9);
+    border: 2px solid;
+    text-align: center;
+    align-items: center;
+}
+
+.book img{
+    width: 100%;
+    height: auto;
+}
+
+.reservation {
+    padding: 2rem;
+    background-color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    gap: 1rem;
+}
+
+.reservation h2 {
+    text-align: center;
+}
+
+.reservation p {
+    height: 80px;
+    text-align: center;
+    align-items: center;
+    grid-column: 2;
+}
+
+.reservation nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.5rem;
+    grid-column: 2;
+    border: 2px solid black;
+}
+
+.reservation nav a {
+    text-align: center;
+    text-decoration: none;
+}

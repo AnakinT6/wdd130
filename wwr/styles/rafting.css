@@ -244,7 +244,7 @@ section p {
  }
  
 .adventure figure img {
-     max-height: 100px;
+    max-height: 100px;
  } 
 
 .adventure figcaption {
@@ -356,3 +356,16 @@ footer nav a {
     text-align: center;
     text-decoration: none;
 }
+
+.plan {
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.plan h2 {
+    text-align: center;
+    grid-column: 1/4;
+}
+

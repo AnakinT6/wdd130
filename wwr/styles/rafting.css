@@ -274,6 +274,7 @@ section p {
 
 .history p {
     height: 150px;
+    background-color: var(--nav-background-color);
 }
 
 footer {

@@ -397,3 +397,100 @@ td {
     background-color: var(--nav-background-color);
     text-align: center;
 }
+
+.homei{
+    position: relative;
+}
+
+.homei h1 {
+    position: absolute;
+    top: -1.6rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--accent2-color);
+    border: 3px solid rgba(0, 0, 0, 1);
+}
+
+.homei img {
+    width: 100%;
+    height: auto;
+}
+
+.homei article{
+    font-size: 2rem;
+    position: absolute;
+    max-width: 80%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 1rem;
+    top: 15.5rem;
+    background-color: rgba(125, 176, 230, 0.9);
+    border: 2px solid;
+    text-align: center;
+    align-items: center;
+}
+
+input[id="name"]{
+    width: 150px;
+    height: 20px;
+    margin-top: -25px;
+    margin-bottom: 50px;
+}
+
+input[id="lastname"]{
+    width: 150px;
+    height: 20px;
+    margin-top: -25px;
+    margin-bottom: 50px;
+}
+
+input[id="adress"]{
+    width: 150px;
+    height: 20px;
+    margin-top: -25px;
+    margin-bottom: 50px;
+}
+
+input[id="phone"]{
+    width: 150px;
+    height: 20px;
+    margin-top: -25px;
+    margin-bottom: 50px;
+}
+
+input[id="emaill"]{
+    width: 150px;
+    height: 20px;
+    margin-top: -25px;
+    margin-bottom: 50px;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.info p{
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    background-color: var(--nav-background-color);
+}
+
+.link-trips{
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+
+.link-trips a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: var(--accent2-color);
+    border: 1px solid black;
+    color: black;
+}

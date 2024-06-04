@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>Anakin Tellez | WDD 130 | Supido |Home Page for the Rafting Website</title>
-        <meta name="description" content="The about us page contains information such as the name of our company, its history and information about rafting.">
+        <meta name="description" content="The home page is the main one to access the other pages, it includes a subscription section and a little information that the rest of the page contains.">
         <meta name="author" content="Anakin Tellez"> 
         <link rel="stylesheet" href="styles/rafting.css">
     </head>
@@ -19,11 +19,55 @@
             </nav>
         </header>
         <main>
-           
+           <div class="homei">
+            <img src="images/index-image.jpg" alt="background image">
+            <h1>Supido</h1>
+            <article>
+                <p>Welcome</p>
+            </article>
+           </div>
+           <div>
+            <form>
+                <fieldset>
+                    <legend>Subscription</legend>
+                    <label for="name">First name:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="lastname">Last name:</label>
+                    <input type="text" id="lastname" name="lastname">
+                    <label for="adress">Address:</label>
+                    <input type="text" id="adress" name="adress">
+                    <label for="phone">Phone number:</label>
+                    <input type="text" id="phone" name="phone">
+                    <label for="emaill">Enter a email:</label>
+                    <input type="text" id="emaill" name="emaill">
+                    <label for="timep">Select your plan</label>
+                    <select id="timep" name="timep">
+                        <option value="select">Select your option:</option>
+                        <option value="6month">6 Months</option>
+                        <option value="1year">1 Year</option>
+                        <option value="2years">2 Years</option>
+                    </select>
+                    <button type="submit">Subscribe</button>
+                </fieldset>
+            </form>
+           </div>
+           <div class="link-trips">
+             <nav>
+                <a href="trips.html">Tips</a>
+             </nav>
+           </div>
+           <div class="info">
+            <img src="images/telefono.jpeg" alt="infoimage">
+            <p>Welcome to our page, the focus we have for this page is to be able to provide you with information and plans so that you can enjoy your trips doing this sport, as well as provide you with a means so that you can ask us your questions in case our information is not enough.</p>
+            <img src="images/dinero.jpeg" alt="offering">
+            <p>
+                What we offer are plans and costs that are accessible to any family in different places as options to enjoy a good trip.</p>
+           </div>
         </main>
         <footer>
             <p>©2024 | Supīdo | Anakin Tellez</p>
             <nav class="sociallinks">
+                <a href="images/diagrama-home.png">Wareframe</a>
                 <a href="https://www.facebook.com/?locale=es_LA">
                     <img src="images/facebook.jpeg" alt="Facebook" width="50">
                 </a>
